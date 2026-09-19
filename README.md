@@ -1,6 +1,6 @@
 # Allan Senteu
 
-**Writer · Developer · Technology Enthusiast · Emerging Cybersecurity Professional**
+**Writer · Developer · Digital Technology · Emerging Cybersecurity Professional**
 
 This repository contains my personal portfolio — a place where I document the things I build, the things I write, and the direction I'm taking in technology.
 
@@ -55,7 +55,7 @@ Most of the portfolio content can be updated from:
 content/site.ts
 ```
 
-## A few of the projects
+## A few of my the projects
 
 * **AeroCruz** — Ride-hailing platform
 * **Barclays Sunset Camp** — Tourism & hospitality website
@@ -67,8 +67,6 @@ content/site.ts
 This project will keep changing.
 
 New projects, writing, experiments and improvements will be added as I continue learning and building.
-
-**Build today. Learn constantly. Secure tomorrow.**
 
 ---
 
