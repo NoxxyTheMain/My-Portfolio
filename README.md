@@ -2,25 +2,36 @@
 
 **Writer · Developer · Digital Technology · Emerging Cybersecurity Professional**
 
-This repository contains my personal portfolio — a place where I document the things I build, the things I write, and the direction I'm taking in technology.
+This is my personal portfolio — a space for the projects I build, the things I write, and the areas of technology I'm exploring.
 
-I'm interested in the space where **technology, communication, and security** meet. Most of my current work is around web development, while I'm gradually moving deeper into cybersecurity, networking, and web security.
+My current work is mainly focused on web development, while I'm gradually moving deeper into cybersecurity, networking, Linux, and web security.
 
-## What you'll find here
+## Portfolio
 
-**Projects**
-Websites, applications, and other technical work I've built or contributed to.
+🌐 **Live website:** [View my portfolio](https://my-portfolio-wc9h.vercel.app)
 
-**Writing**
-Articles and ideas covering technology, education, society, and topics I'm curious about.
+The website brings together:
 
-**Skills**
-The technologies and tools I'm currently using or learning.
+* Selected projects
+* Writing and articles
+* Technical skills
+* My current areas of focus
+* Contact and social links
 
-**Cybersecurity**
-A growing part of my work as I develop my knowledge through practical projects and experimentation.
+## Selected projects
 
-## Built with
+* **AeroCruz** — Ride-hailing platform
+* **Barclays Sunset Camp** — Tourism & hospitality website
+* **Elite Wear & Ink** — Web design project
+* **Security Lab** — Cybersecurity work in progress
+
+## Writing
+
+Writing is another part of my work.
+
+I use the writing section to explore technology, education, society, and other subjects that interest me. Some pieces are published while others are still being developed.
+
+## Tech stack
 
 * Next.js
 * TypeScript
@@ -30,16 +41,12 @@ A growing part of my work as I develop my knowledge through practical projects a
 * Git & GitHub
 * Vercel
 
-## Run it locally
+I'm also developing my skills in:
 
-```bash
-git clone https://github.com/NoxxyTheMain/My-Portfolio.git
-cd My-Portfolio
-npm install
-npm run dev
-```
-
-Then visit `http://localhost:3000`.
+* Cybersecurity
+* Networking
+* Linux
+* Web security
 
 ## Project structure
 
@@ -49,30 +56,42 @@ content/    → Portfolio content and configuration
 public/     → Images and public assets
 ```
 
-Most of the portfolio content can be updated from:
+Most portfolio content can be updated from:
 
 ```text
 content/site.ts
 ```
 
-## A few of my the projects
+## Development
 
-* **AeroCruz** — Ride-hailing platform
-* **Barclays Sunset Camp** — Tourism & hospitality website
-* **Elite Wear & Ink** — Web design project
-* **Security Lab** — Cybersecurity work in progress
+If you'd like to run the project locally:
 
-## About the repository
+```bash
+git clone https://github.com/NoxxyTheMain/My-Portfolio.git
+cd My-Portfolio
+npm install
+npm run dev
+```
 
-This project will keep changing.
+The development server runs at:
 
-New projects, writing, experiments and improvements will be added as I continue learning and building.
+```text
+http://localhost:3000
+```
+
+## Deployment
+
+The portfolio is deployed with **Vercel** and connected to the `main` branch of this repository.
+
+Changes pushed to `main` are automatically deployed.
+
+## What's next
+
+This portfolio will continue to evolve as I build more projects, publish more writing, and develop further in cybersecurity and other areas of technology.
+
 
 ---
 
-### Connect
+**Allan Senteu**
 
-GitHub: `NoxxyTheMain`
-LinkedIn: `senteu-is-allan`
-
-© Allan Senteu
+Writer · Developer · Technology Enthusiast
