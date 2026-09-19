@@ -1,17 +1,80 @@
-# Allan Senteu — Portfolio
+# Allan Senteu
 
-A single-page personal portfolio built with Next.js and TypeScript. Content is deliberately honest: projects are described from the supplied brief, article ideas are marked as drafts, and public contact details are configurable.
+**Writer · Developer · Technology Enthusiast · Emerging Cybersecurity Professional**
 
-## Run locally
+This repository contains my personal portfolio — a place where I document the things I build, the things I write, and the direction I'm taking in technology.
 
-1. Install Node.js 18.18 or newer.
-2. Copy `.env.example` to `.env.local` and add Allan's real links/email.
-3. Run `npm install` then `npm run dev`.
+I'm interested in the space where **technology, communication, and security** meet. Most of my current work is around web development, while I'm gradually moving deeper into cybersecurity, networking, and web security.
 
-## Edit content
+## What you'll find here
 
-- `content/site.ts` holds projects, article drafts, skills, and social configuration.
-- `app/page.tsx` holds the page composition and reusable section components.
-- `app/globals.css` controls the responsive editorial design.
+**Projects**
+Websites, applications, and other technical work I've built or contributed to.
 
-Replace the `#` project links in `content/site.ts` when their GitHub repositories or live demos are available.
+**Writing**
+Articles and ideas covering technology, education, society, and topics I'm curious about.
+
+**Skills**
+The technologies and tools I'm currently using or learning.
+
+**Cybersecurity**
+A growing part of my work as I develop my knowledge through practical projects and experimentation.
+
+## Built with
+
+* Next.js
+* TypeScript
+* React
+* CSS
+* SQL / MySQL
+* Git & GitHub
+* Vercel
+
+## Run it locally
+
+```bash
+git clone https://github.com/NoxxyTheMain/My-Portfolio.git
+cd My-Portfolio
+npm install
+npm run dev
+```
+
+Then visit `http://localhost:3000`.
+
+## Project structure
+
+```text
+app/        → Pages, layouts and components
+content/    → Portfolio content and configuration
+public/     → Images and public assets
+```
+
+Most of the portfolio content can be updated from:
+
+```text
+content/site.ts
+```
+
+## A few of the projects
+
+* **AeroCruz** — Ride-hailing platform
+* **Barclays Sunset Camp** — Tourism & hospitality website
+* **Elite Wear & Ink** — Web design project
+* **Security Lab** — Cybersecurity work in progress
+
+## About the repository
+
+This project will keep changing.
+
+New projects, writing, experiments and improvements will be added as I continue learning and building.
+
+**Build today. Learn constantly. Secure tomorrow.**
+
+---
+
+### Connect
+
+GitHub: `NoxxyTheMain`
+LinkedIn: `senteu-is-allan`
+
+© Allan Senteu
