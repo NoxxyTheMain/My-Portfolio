@@ -66,7 +66,7 @@ export function AboutContent() {
     <div className="profile-copy">
       <p className="profile-kicker">My path so far</p>
       <h2>Computing professional, writer and builder of practical digital work.</h2>
-      <p>I&apos;m Allan Senteu—a Diploma in Computer Science student and developer who combines software work, database projects and clear writing. I care about useful interfaces, solid structure underneath, and explaining technology in language people can follow.</p>
+      <p>I&apos;m Allan Senteu;a Computer Science student and developer who combines software work, database projects and clear writing. I care about useful interfaces, solid structure underneath, and explaining technology in language people can follow.</p>
       <p>My path runs from cybercafé tutoring and document services through freelance research writing to web development and a growing focus on cybersecurity. I build one project, one article and one skill at a time.</p>
       <div className="profile-actions"><Link className="button" href="/contact">Get in touch <ArrowUpRight /></Link><a className="profile-cv-link" href="/allan-senteu-cv.pdf" download>Download my CV ↓</a></div>
     </div>
