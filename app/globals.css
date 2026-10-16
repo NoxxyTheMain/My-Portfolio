@@ -253,19 +253,24 @@ body{padding-top:0}
 .contact-panel-heading h1{font-size:clamp(40px,5vw,62px);margin:10px 0}
 .contact-panel-grid{gap:20px}
 .profile-page,.home-about.section{background:#344B5E;color:#fff7f0}
-.profile-page .page-intro,.home-about .page-intro{border-color:rgba(255,245,235,.18)}
+.profile-page .page-intro,.home-about .page-intro{border-color:rgba(255,247,240,.24)}
+.profile-page .page-intro .section-label,.home-about .page-intro .section-label{color:#e7a187;letter-spacing:.16em}
 .profile-page .page-intro h1,.home-about .page-intro h1{color:#fff7f0}
-.profile-page .page-intro>p:last-child,.home-about .page-intro>p:last-child{color:#eadbd8}
+.profile-page .page-intro h1 em,.home-about .page-intro h1 em{color:#B65F49}
+.profile-page .page-intro>p:last-child,.home-about .page-intro>p:last-child{color:#f0e5df}
 .profile-page .profile-overview,.home-about .profile-overview{align-items:center}
-.profile-page .profile-copy h2,.home-about .profile-copy h2{color:#fff7f0;font-size:clamp(28px,3.2vw,42px)}
-.profile-page .profile-copy>p:not(.profile-kicker),.home-about .profile-copy>p:not(.profile-kicker){color:#eadbd8}
-.profile-page .profile-kicker,.home-about .profile-kicker{color:#e7a187}
-.profile-page .profile-focus-card,.home-about .profile-focus-card{background:;border-color:#80525A;box-shadow:0 12px 28px rgba(31,10,14,.18)}
-.profile-page .profile-focus-card h3,.home-about .profile-focus-card h3{color:#fff7f0}
-.profile-page .profile-focus-card div>p:last-child,.home-about .profile-focus-card div>p:last-child{color:#eadbd8}
-.profile-page .profile-focus-card .card-index,.home-about .profile-focus-card .card-index{color:#e7a187}
-.profile-page .focus-icon,.home-about .focus-icon{background:#79434C;color:#ffc4a9}
-.profile-page .profile-focus-card>svg,.home-about .profile-focus-card>svg{color:#e7a187}
+.profile-page .profile-copy h2,.home-about .profile-copy h2{color:#FFF7F0;font-size:clamp(28px,3.2vw,42px);line-height:1.12;letter-spacing:-.04em;margin-bottom:20px}
+.profile-page .profile-copy>p:not(.profile-kicker),.home-about .profile-copy>p:not(.profile-kicker){color:#f0e5df;line-height:1.78}
+.profile-page .profile-kicker,.home-about .profile-kicker{color:#e7a187;letter-spacing:.15em}
+.profile-page .profile-focus,.home-about .profile-focus{gap:15px}
+.profile-page .profile-focus-card,.home-about .profile-focus-card{background:#293F50;border:1px solid rgba(231,161,135,.25);border-left:3px solid #B65F49;box-shadow:0 12px 28px rgba(12,25,35,.22);transition:transform .24s ease,border-color .24s ease,box-shadow .24s ease,background-color .24s ease}
+.profile-page .profile-focus-card h3,.home-about .profile-focus-card h3{color:#FFF7F0}
+.profile-page .profile-focus-card div>p:last-child,.home-about .profile-focus-card div>p:last-child{color:#d4dce0;line-height:1.65}
+.profile-page .profile-focus-card .card-index,.home-about .profile-focus-card .card-index{color:#e7a187;letter-spacing:.08em}
+.profile-page .focus-icon,.home-about .focus-icon{background:#344B5E;color:#e7a187;border:1px solid rgba(231,161,135,.24)}
+.profile-page .profile-focus-card>svg,.home-about .profile-focus-card>svg{color:#e7a187;transition:transform .24s ease,color .24s ease}
+.profile-page .profile-focus-card:hover,.home-about .profile-focus-card:hover{transform:translateY(-3px);background:#2d4658;border-color:rgba(231,161,135,.48);box-shadow:0 18px 36px rgba(12,25,35,.3)}
+.profile-page .profile-focus-card:hover>svg,.home-about .profile-focus-card:hover>svg{transform:translate(2px,-2px);color:#ffc1a4}
 .profile-page .profile-actions .button,.home-about .profile-actions .button{background:#B65F49;color:#fffaf5}
 .profile-page .profile-actions .button:hover,.home-about .profile-actions .button:hover{background:#D17C60}
 .profile-page .profile-cv-link,.home-about .profile-cv-link{color:#fff4ec;border-color:#b88b83}
@@ -384,15 +389,3 @@ body{padding-top:0}
 @media(max-width:760px){.education-showcase .education-record{grid-template-columns:40px minmax(0,1fr);gap:9px}.education-showcase .education-record-rail span{width:34px;height:34px;box-shadow:0 0 0 4px #F4F0E8;font-size:10px}.education-showcase .education-record-rail::after{top:37px;bottom:-15px}.education-showcase .education-record-card{padding:17px 15px}.education-showcase .education-heading{padding-bottom:19px}.education-showcase .education-heading h1,.education-showcase .education-heading h2{font-size:38px}.education-showcase .education-timeline{margin-top:18px}.experience-editorial-head{grid-template-columns:1fr;gap:13px}.experience-editorial-head h1,.experience-editorial-head h2{font-size:clamp(43px,10vw,64px)}.experience-editorial-deck{max-width:440px;font-size:15px}.experience-edition{justify-self:start}.experience-entry{grid-template-columns:68px 1fr;gap:9px 16px;padding:22px 0 24px}.experience-entry-index{grid-row:span 2;padding-left:13px}.experience-entry-index span{font-size:35px}.experience-entry-title{grid-column:2}.experience-entry-details{grid-column:2;gap:9px}.experience-entry-details p{font-size:12px}.experience-page .experience-editorial{padding-top:122px;padding-bottom:38px}.experience-page .experience-editorial-head h1{font-size:clamp(44px,10vw,68px)}}
 @media(max-width:600px){.education.section{padding-top:55px;padding-bottom:35px}.education-page .education-showcase{padding-top:122px}.education-page{padding-bottom:35px}.education-showcase .education-record-card header{gap:7px;align-items:flex-start;flex-direction:column}.education-showcase .education-record-card h3{font-size:18px}.education-more{margin-right:auto}.experience.section{padding-top:62px;padding-bottom:62px}.experience-page .experience-editorial{padding-top:122px;padding-bottom:35px}.experience-editorial-head h1,.experience-editorial-head h2{font-size:43px}.experience-page .experience-editorial-head h1{font-size:46px}.experience-entry{grid-template-columns:53px 1fr;gap:8px 12px;padding:20px 0}.experience-entry-index{padding-left:10px}.experience-entry-index span{font-size:29px}.experience-entry-index time{font-size:9px}.experience-entry-title>p{font-size:10px}.experience-entry-title h3{font-size:19px}.experience-entry-details p{grid-template-columns:20px 1fr;gap:7px;font-size:11px}.experience-more{margin-left:0}.experience-page .experience-more{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){.experience-entry{animation:none}.experience-entry::before{transition:none}}
-
-/* Improve About text and card contrast while retaining the selected slate background. */
-.profile-page .profile-copy h2,.home-about .profile-copy h2{color:#fffaf3}
-.profile-page .profile-copy>p:not(.profile-kicker),.home-about .profile-copy>p:not(.profile-kicker){color:#f4edf0}
-.profile-page .profile-kicker,.home-about .profile-kicker{color:#ffb08f}
-.profile-page .profile-focus-card,.home-about .profile-focus-card{background:#f7f2e9;border:1px solid #f0dfcc;border-left:4px solid #c66d50;box-shadow:0 14px 34px rgba(10,21,31,.27)}
-.profile-page .profile-focus-card h3,.home-about .profile-focus-card h3{color:#263b32}
-.profile-page .profile-focus-card div>p:last-child,.home-about .profile-focus-card div>p:last-child{color:#47534c}
-.profile-page .profile-focus-card .card-index,.home-about .profile-focus-card .card-index{color:#9c4d35}
-.profile-page .focus-icon,.home-about .focus-icon{background:#e8d7c4;color:#873f2c}
-.profile-page .profile-focus-card>svg,.home-about .profile-focus-card>svg{color:#a85438}
-.profile-page .profile-focus-card:hover,.home-about .profile-focus-card:hover{box-shadow:0 20px 42px rgba(10,21,31,.34)}
