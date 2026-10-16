@@ -5,11 +5,10 @@ export const social = {
   phone: "+254792226658"
 };
 
-export const projects = [
-  { title: "AeroCruz", kind: "Ride-hailing platform", mark: "AC", visual: "MOVE WITH INTENT", description: "A practical ride-hailing platform concept shaped around the moving parts that make a digital service feel useful: riders, drivers, trips and clear interfaces.", problem: "How might everyday transport feel simpler to request and manage?", contribution: "Product thinking, interface design and the shape of a service’s data model.", stack: ["Web app", "UI / UX", "Database architecture"], github: "#" },
-  { title: "Barclays Sunset Camp", kind: "Tourism & hospitality", mark: "BSC", visual: "THE STAY BEGINS HERE", description: "A considered web presence for a hospitality business—designed to present a destination with clarity, warmth and a path toward booking.", problem: "How can a digital visit create confidence before a guest arrives?", contribution: "Responsive design, user experience and a business-focused web presentation.", stack: ["Responsive design", "UX", "Booking flow"], github: "#" },
-  { title: "Elite Wear & Ink", kind: "Web development", mark: "EWI", visual: "MADE TO BE WORN", description: "A frontend project focused on the fundamentals that matter: strong hierarchy, responsive behavior and a clear presentation of a brand’s offering.", problem: "How can a small brand make its work easy to discover online?", contribution: "Frontend implementation and responsive page design.", stack: ["HTML", "CSS", "JavaScript"], github: "#" },
-  { title: "Security work in progress", kind: "Future projects", mark: "+", visual: "LAB NOTES / 001", description: "A home reserved for the experiments still ahead: security labs, network projects, Python tools and more deliberate work on authentication and web security.", problem: "The next layer of technical understanding.", contribution: "Learning in public—without pretending the work is finished.", stack: ["Linux", "Networking", "Web security"], github: "#" }
+export const projects: { title: string; kind: string; preview?: string; previewAlt?: string; description: string; stack: string[]; github: string }[] = [
+  { title: "AeroCruz", kind: "Ride-hailing database", preview: "/aerocruz-erd.png", previewAlt: "AeroCruz relational database entity relationship diagram", description: "AeroCruz Ride-Hailing Management Database: a MySQL group project covering schema design, sample data, business queries and database views.", stack: ["MySQL", "Relational design", "SQL"], github: "https://github.com/NoxxyTheMain/aerocruz-ride-hailing" },
+  { title: "Barclays Sunset Camp", kind: "Tourism & hospitality", description: "A considered web presence for a hospitality business—designed to present a destination with clarity, warmth and a path toward booking.", stack: ["Responsive design", "UX", "Booking flow"], github: "" },
+  { title: "Elite Wear & Ink", kind: "Web development", description: "A frontend project focused on strong hierarchy, responsive behavior and a clear presentation of a brand’s offering.", stack: ["HTML", "CSS", "JavaScript"], github: "" }
 ];
 
 export const articles = [

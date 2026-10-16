@@ -11,6 +11,7 @@ export default function Home() {
         <div className="hero-grid" aria-hidden="true" />
         <p className="eyebrow reveal">Writer. Builder. Explorer of technology.</p>
         <h1 className="reveal delay-1">Allan<br /><em>Senteu</em></h1>
+        <figure className="hero-portrait reveal delay-1"><Image src="/allan-senteu.jpg" alt="Portrait of Allan Senteu" width={900} height={1200} priority /></figure>
         <div className="hero-bottom reveal delay-2">
           <p>I build digital experiences, write about technology, and explore the systems and security behind the things we use every day.</p>
           <div className="actions"><a className="button" href="#work">Explore my work <ArrowUpRight /></a><a className="text-link" href="#writing">Read my writing <span>↓</span></a></div>
@@ -69,4 +70,4 @@ export default function Home() {
 }
 
 function Practice({n,title,text,tags}:{n:string,title:string,text:string,tags:string[]}) { return <article className="practice-item"><span>{n}</span><h3>{title}</h3><p>{text}</p><div>{tags.map(t=><i key={t}>{t}</i>)}</div></article>; }
-function Project({project,index}:{project:(typeof projects)[number],index:number}) { return <article className={`project project-${index}`}><div className="project-visual"><span>{project.mark}</span><div className="screen"><b>{project.visual}</b><i /><i /><i /></div></div><div className="project-info"><p className="project-kind">0{index+1} / {project.kind}</p><h3>{project.title}</h3><p>{project.description}</p><dl><div><dt>Problem</dt><dd>{project.problem}</dd></div><div><dt>Contribution</dt><dd>{project.contribution}</dd></div></dl><div className="project-foot"><div>{project.stack.map(t=><span key={t}>{t}</span>)}</div><a href={project.github} aria-label={`${project.title} on GitHub`}>View project <ArrowUpRight /></a></div></div></article>; }
+function Project({project,index}:{project:(typeof projects)[number],index:number}) { return <article className={`project project-${index}${project.preview ? " has-preview" : ""}`}>{project.preview && <div className="project-visual"><Image src={project.preview} alt={project.previewAlt ?? `${project.title} project preview`} width={1600} height={900} sizes="(max-width: 760px) 100vw, 52vw" /></div>}<div className="project-info"><p className="project-kind">0{index+1} / {project.kind}</p><h3>{project.title}</h3><p>{project.description}</p><div className="project-foot"><div>{project.stack.map(t=><span key={t}>{t}</span>)}</div>{project.github && <a href={project.github} aria-label={`${project.title} on GitHub`}>View project <ArrowUpRight /></a>}</div></div></article>; }
