@@ -40,6 +40,12 @@ export function EducationShowcase({ preview = false }: { preview?: boolean }) {
   </section>;
 }
 
+const experienceThemes: Record<string, string> = {
+  "Jomu Technologies Computer College": "plum",
+  WriterBay: "emerald",
+  Freelance: "indigo",
+};
+
 export function ExperienceShowcase({ preview = false }: { preview?: boolean }) {
   const Heading = preview ? "h2" : "h1";
   return <section className={`experience-editorial${preview ? " is-preview" : ""}`}>
@@ -49,7 +55,7 @@ export function ExperienceShowcase({ preview = false }: { preview?: boolean }) {
       <span className="experience-edition">FIELD NOTES&nbsp;&nbsp; / &nbsp;&nbsp;01—03</span>
     </header>
     <div className="experience-entries">
-      {experience.map((item, index) => <article className="experience-entry" key={item.organization + item.role}>
+      {experience.map((item, index) => <article className={`experience-entry experience-entry--${experienceThemes[item.organization] ?? "default"}`} key={item.organization + item.role}>
         <aside className="experience-entry-index"><span>{String(index + 1).padStart(2, "0")}</span>{item.dates && <time>{item.dates}</time>}</aside>
         <div className="experience-entry-title"><p>{item.role}</p><h3>{item.organization}</h3></div>
         <div className="experience-entry-details">{item.details.map((detail, detailIndex) => <p key={detail}><span>{String(detailIndex + 1).padStart(2, "0")}</span>{detail}</p>)}</div>

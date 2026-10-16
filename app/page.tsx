@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       <section className="work section" id="projects">
-        <div className="section-heading centered"><p className="section-label">06 / Featured projects</p><h2>Real work.<br /><em>Real previews.</em></h2></div>
+        <div className="section-heading centered"><p className="section-label">06 / Featured projects</p><h2>Digital Soltions.<br /><em>Made Tangible.</em></h2></div>
         <div className="project-gallery">{projects.filter((project) => project.preview).map((project, index) => <ProjectCard key={project.title} project={project} index={index} />)}</div>
         <Link className="all-projects" href="/work">View the project list <ArrowUpRight /></Link>
       </section>
