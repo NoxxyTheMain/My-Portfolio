@@ -49,7 +49,7 @@ export const projects: PortfolioProject[] = [
 ];
 
 export const education = [
-  { institution: "Cooperative University of Kenya", qualification: "Diploma in Computer Science", dates: "2025–Present", location: "Nairobi, Kenya", current: true },
+  { institution: "The Co-operative University of Kenya", qualification: "Diploma in Computer Science", dates: "2025–Present", location: "Nairobi, Kenya", current: true },
   { institution: "Silvergate Computer College", qualification: "Computer Applications", dates: "Jul–Nov 2017", location: "Kenya", current: false },
   { institution: "Ololulunga High School", qualification: "Kenya Certificate of Secondary Education", dates: "2013–2016", location: "Narok County, Kenya", current: false },
   { institution: "Morijo Primary School", qualification: "Kenya Certificate of Primary Education", dates: "2005–2012", location: "Narok County, Kenya", current: false }
