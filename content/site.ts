@@ -2,21 +2,57 @@ export const social = {
   github: "https://github.com/NoxxyTheMain",
   linkedin: "https://www.linkedin.com/in/senteu-is-allan/",
   email: "senteualan@gmail.com",
-  phone: "+254792226658"
+  phone: "+254792226658",
+  address: "P.O. Box 1031-20500, Narok, Kenya"
 };
 
-export const projects: { title: string; kind: string; preview?: string; previewAlt?: string; description: string; stack: string[]; github: string }[] = [
-  { title: "AeroCruz", kind: "Ride-hailing database", preview: "/aerocruz-erd.png", previewAlt: "AeroCruz relational database entity relationship diagram", description: "AeroCruz Ride-Hailing Management Database: a MySQL group project covering schema design, sample data, business queries and database views.", stack: ["MySQL", "Relational design", "SQL"], github: "https://github.com/NoxxyTheMain/aerocruz-ride-hailing" },
-  { title: "Narok North Bursary Platform", kind: "Web project", description: "Narok North Bursary Platform project.", stack: [], github: "https://github.com/NoxxyTheMain/Narok-North-Bursary-Plat" },
-  { title: "Barclays Sunset Camp", kind: "Tourism & hospitality", description: "A considered web presence for a hospitality business—designed to present a destination with clarity, warmth and a path toward booking.", stack: ["Responsive design", "UX", "Booking flow"], github: "" },
-  { title: "Elite Wear & Ink", kind: "Web development", description: "A frontend project focused on strong hierarchy, responsive behavior and a clear presentation of a brand’s offering.", stack: ["HTML", "CSS", "JavaScript"], github: "" }
+export const aboutFocus = [
+  {
+    title: "Web Development",
+    summary: "Building responsive websites and web applications with modern frameworks, clear structure and attention to detail.",
+    icon: "code" as const
+  },
+  {
+    title: "Software & Database Work",
+    summary: "Designing practical software and database solutions with an eye on structure, queries and real-world use cases.",
+    icon: "engineering" as const
+  },
+  {
+    title: "Writing & Research",
+    summary: "Researching, drafting and refining academic, technical and feature writing across technology, education and culture.",
+    icon: "writing" as const
+  }
+];
+
+export const skillCards: { name: string; subtitle: string; icon: string }[] = [
+  { name: "HTML5 & CSS3", subtitle: "Frontend core", icon: "html5" },
+  { name: "JavaScript", subtitle: "Programming language", icon: "javascript" },
+  { name: "TypeScript", subtitle: "Typed JavaScript", icon: "typescript" },
+  { name: "React", subtitle: "Frontend library", icon: "react" },
+  { name: "Next.js", subtitle: "Full-stack framework", icon: "nextjs" },
+  { name: "MySQL", subtitle: "Relational database", icon: "mysql" },
+  { name: "SQL", subtitle: "Database queries", icon: "sql" },
+  { name: "Git & GitHub", subtitle: "Version control", icon: "git" },
+  { name: "Vercel", subtitle: "Deployment platform", icon: "vercel" },
+  { name: "Computer applications", subtitle: "Practical digital tools", icon: "apps" },
+  { name: "Cybersecurity", subtitle: "Emerging learning focus", icon: "security" },
+  { name: "Networking & Linux", subtitle: "Areas I’m exploring", icon: "linux" }
+];
+
+export type PortfolioProject = { title: string; kind: string; preview?: string; previewAlt?: string; previewLabel?: string; description: string; stack: string[]; github?: string; website?: string };
+
+export const projects: PortfolioProject[] = [
+  { title: "AeroCruz", kind: "Ride-hailing database", preview: "/aerocruz-erd.png", previewAlt: "AeroCruz relational database entity relationship diagram", previewLabel: "Project artifact", description: "AeroCruz Ride-Hailing Management Database: a MySQL group project covering schema design, sample data, business queries and database views.", stack: ["MySQL", "Relational design", "SQL"], github: "https://github.com/NoxxyTheMain/aerocruz-ride-hailing" },
+  { title: "Narok North Bursary Platform", kind: "Web project", preview: "/projects/narok-bursary.jpg", previewAlt: "Narok North Bursary & Projects website homepage", previewLabel: "Live site preview", description: "A website for Narok North bursary information, projects, news and community updates.", stack: [], github: "https://github.com/NoxxyTheMain/Narok-North-Bursary-Plat", website: "https://narok-north-bursary-platform.vercel.app" },
+  { title: "Barclays Sunset Camp", kind: "Tourism & hospitality", preview: "/projects/barclays-sunset.jpg", previewAlt: "Barclays Sunset Camp safari website homepage", previewLabel: "Live site preview", description: "A Maasai Mara safari camp website presenting the lodge, activities and booking experience.", stack: [], website: "https://barclays-sunset-camp.vercel.app" },
+  { title: "Elite Wear & Ink", kind: "Web development", preview: "/projects/elite-wear.jpg", previewAlt: "Elite Wear & Ink fashion and tattoo brand website homepage", previewLabel: "Live site preview", description: "A fashion and tattoo brand website presenting clothing, custom tattoos, embroidery, branding and printing services.", stack: [], website: "https://elite-wear-and-ink.vercel.app" }
 ];
 
 export const education = [
-  { institution: "Cooperative University of Kenya", qualification: "Diploma in Computer Science", dates: "2025–Present" },
-  { institution: "Silvergate Computer College", qualification: "Computer Applications", dates: "Jul–Nov 2017" },
-  { institution: "Ololulunga High School", qualification: "Kenya Certificate of Secondary Education", dates: "2013–2016" },
-  { institution: "Morijo Primary School", qualification: "Kenya Certificate of Primary Education", dates: "2005–2012" }
+  { institution: "Cooperative University of Kenya", qualification: "Diploma in Computer Science", dates: "2025–Present", location: "Nairobi, Kenya", current: true },
+  { institution: "Silvergate Computer College", qualification: "Computer Applications", dates: "Jul–Nov 2017", location: "Kenya", current: false },
+  { institution: "Ololulunga High School", qualification: "Kenya Certificate of Secondary Education", dates: "2013–2016", location: "Narok County, Kenya", current: false },
+  { institution: "Morijo Primary School", qualification: "Kenya Certificate of Primary Education", dates: "2005–2012", location: "Narok County, Kenya", current: false }
 ];
 
 export const experience = [

@@ -20,10 +20,12 @@ The website brings together:
 
 ## Selected projects
 
-* **AeroCruz** — Ride-hailing platform
-* **Barclays Sunset Camp** — Tourism & hospitality website
-* **Elite Wear & Ink** — Web design project
-* **Security Lab** — Cybersecurity work in progress
+* **AeroCruz** — MySQL ride-hailing management database project
+* **Narok North Bursary Platform** — Bursary and community website ([live site](https://narok-north-bursary-platform.vercel.app))
+* **Barclays Sunset Camp** — Maasai Mara hospitality website ([live site](https://barclays-sunset-camp.vercel.app))
+* **Elite Wear & Ink** — Fashion and tattoo brand website ([live site](https://elite-wear-and-ink.vercel.app))
+
+Project previews use screenshots of the live sites supplied for the portfolio.
 
 ## Writing
 

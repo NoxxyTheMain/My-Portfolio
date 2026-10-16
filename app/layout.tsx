@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { SiteNav } from "./components";
+import { NavSwitcher } from "./NavSwitcher";
+import { SiteFooter } from "./components";
 
 export const metadata: Metadata = {
   title: "Allan Senteu — Writer, Builder & Technology Explorer",
@@ -14,5 +15,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body><SiteNav />{children}</body></html>;
+  return <html lang="en"><body id="top"><NavSwitcher />{children}<SiteFooter /></body></html>;
 }

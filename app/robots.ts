@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const url = process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com";
+  const url = process.env.NEXT_PUBLIC_SITE_URL || "https://my-portfolio-wc9h.vercel.app";
   return { rules: { userAgent: "*", allow: "/" }, sitemap: `${url}/sitemap.xml` };
 }
