@@ -66,7 +66,8 @@ export function AboutContent() {
     <div className="profile-copy">
       <p className="profile-kicker">My path so far</p>
       <h2>Computing professional, writer and builder of practical digital work.</h2>
-      <p>I&apos;m Allan Senteu;a Computer Science student and developer who combines software work, database projects and clear writing. I care about useful interfaces, solid structure underneath, and explaining technology in language people can follow.</p>
+      <p>I&apos;m Allan Senteu; a developer and analyst passionate about building practical digital solutions. I develop web applications, design websites and database systems, and analyse technical requirements to solve problems through efficient, user-focused technology.</p>
+      <p>I&apos;m a research-driven writer experienced in producing academic papers, essays, reports, case studies, and technical content. Through WriterBay and other writing projects. My experience in cyber services combines hands-on computer operations, technical support, and digital service delivery.</p>
       <p>My path runs from cybercafé tutoring and document services through freelance research writing to web development and a growing focus on cybersecurity. I build one project, one article and one skill at a time.</p>
       <div className="profile-actions"><Link className="button" href="/contact">Get in touch <ArrowUpRight /></Link><a className="profile-cv-link" href="/allan-senteu-cv.pdf" download>Download my CV ↓</a></div>
     </div>
