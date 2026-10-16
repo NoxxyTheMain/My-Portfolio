@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ["Allan Senteu", "Allan Senteu developer", "technology writer", "software developer", "cybersecurity"],
   openGraph: {
     title: "Allan Senteu — Writer, Builder & Technology Explorer",
-    description: "I build digital experiences, write about technology, and explore the systems underneath.",
+    description: "I build digital experiences, do academic, research and feature writing and ofcourse explore the systems underneath.",
     type: "website"
   }
 };

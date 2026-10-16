@@ -15,7 +15,7 @@ export default function Home() {
             <p className="eyebrow reveal">Writer · Builder · Explorer of technology</p>
             <h1 className="reveal delay-1">Allan<br /><em>Senteu</em></h1>
             <p className="hero-role">Computing &amp; Technology</p>
-            <p className="hero-description">I build digital experiences, write about technology, and explore the systems and security behind the things we use every day.</p>
+            <p className="hero-description">I build digital experiences, do academic, research and feature writing and ofcourse explore the systems and security behind the things we use every day.</p>
             <div className="actions"><a className="button" href="#projects">Explore my work <ArrowUpRight /></a><a className="text-link" href="#writing">Read my writing <span>↓</span></a></div>
             <SocialLinks />
           </div>
