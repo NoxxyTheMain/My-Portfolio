@@ -46,11 +46,11 @@ export function ExperienceShowcase({ preview = false }: { preview?: boolean }) {
     <header className="experience-editorial-head">
       <div><p className="section-label">Experience / Selected chapters</p><Heading>Work shaped by<br /><em>people and practice.</em></Heading></div>
       <p className="experience-editorial-deck">A working record of the places, people and problems that have shaped how I work.</p>
-      <span className="experience-edition">FIELD NOTES&nbsp;&nbsp; / &nbsp;&nbsp;01—02</span>
+      <span className="experience-edition">FIELD NOTES&nbsp;&nbsp; / &nbsp;&nbsp;01—03</span>
     </header>
     <div className="experience-entries">
       {experience.map((item, index) => <article className="experience-entry" key={item.organization + item.role}>
-        <aside className="experience-entry-index"><span>{String(index + 1).padStart(2, "0")}</span><time>{item.dates}</time></aside>
+        <aside className="experience-entry-index"><span>{String(index + 1).padStart(2, "0")}</span>{item.dates && <time>{item.dates}</time>}</aside>
         <div className="experience-entry-title"><p>{item.role}</p><h3>{item.organization}</h3></div>
         <div className="experience-entry-details">{item.details.map((detail, detailIndex) => <p key={detail}><span>{String(detailIndex + 1).padStart(2, "0")}</span>{detail}</p>)}</div>
       </article>)}
