@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       <section className="work section" id="projects">
-        <div className="section-heading centered"><p className="section-label">06 / Featured projects</p><h2>Digital Soltions.<br /><em>Made Tangible.</em></h2></div>
+        <div className="section-heading centered"><p className="section-label">06 / Featured projects</p><h2>Digital Solutions.<br /><em>Made Tangible.</em></h2></div>
         <div className="project-gallery">{projects.filter((project) => project.preview).map((project, index) => <ProjectCard key={project.title} project={project} index={index} />)}</div>
         <Link className="all-projects" href="/work">View the project list <ArrowUpRight /></Link>
       </section>
@@ -57,7 +57,7 @@ export default function Home() {
       </section>
 
       <section className="writing section" id="writing">
-        <div className="section-heading"><p className="section-label">08 / Writing</p><h2>Notes from<br />the <em>edge of change.</em></h2><p className="section-copy">Ideas about technology, development, cybersecurity and the world being reshaped by digital systems.</p></div>
+        <div className="section-heading"><p className="section-label">08 / Writing</p><h2>Stories beneath<br />the <em>Surface.</em></h2><p className="section-copy">Ideas about technology, development, cybersecurity and the world being reshaped by digital systems.</p></div>
         <div className="article-list">{articles.slice(0, 3).map((article, index) => <article className="article" key={article.title}><span>0{index + 1} / {article.type}</span><h3>{article.title}</h3><p>{article.excerpt}</p><Link href={`/writing/${article.slug}`} aria-label={`Read ${article.title}`}>Read full piece <ArrowUpRight /></Link></article>)}</div>
         <Link className="all-writing" href="/writing">View all writing <ArrowUpRight /></Link>
       </section>
