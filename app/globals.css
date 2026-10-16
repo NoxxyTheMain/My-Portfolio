@@ -252,7 +252,7 @@ body{padding-top:0}
 .contact-panel-heading{margin-bottom:32px}
 .contact-panel-heading h1{font-size:clamp(40px,5vw,62px);margin:10px 0}
 .contact-panel-grid{gap:20px}
-.profile-page,.home-about.section{background:#D9F0E7;color:#fff7f0}
+.profile-page,.home-about.section{background:#344B5E;color:#fff7f0}
 .profile-page .page-intro,.home-about .page-intro{border-color:rgba(255,245,235,.18)}
 .profile-page .page-intro h1,.home-about .page-intro h1{color:#fff7f0}
 .profile-page .page-intro>p:last-child,.home-about .page-intro>p:last-child{color:#eadbd8}
