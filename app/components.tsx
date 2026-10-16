@@ -3,7 +3,7 @@ import { social } from "../content/site";
 import { ArrowUpRight, Github, Linkedin, Mail } from "./ui";
 
 export function SiteNav() {
-  return <nav className="site-nav"><Link className="brand" href="/">Allan Senteu<span>.</span></Link><div className="nav-links"><Link href="/work">Work</Link><Link href="/writing">Writing</Link><Link href="/about">About</Link><Link href="/skills">Skills</Link></div><div className="nav-actions"><a className="nav-cv" href="/allan-senteu-cv.pdf" download>Download CV <span aria-hidden="true">↓</span></a><Link className="nav-contact" href="/contact">Let’s talk <ArrowUpRight /></Link></div></nav>;
+  return <nav className="site-nav"><Link className="brand" href="/#top">Allan Senteu<span>.</span></Link><div className="nav-links"><Link href="/#about">About</Link><Link href="/#education">Education</Link><Link href="/#experience">Experience</Link><Link href="/#skills">Skills</Link><Link href="/#toolkit">Toolkit</Link><Link href="/#projects">Projects</Link><Link href="/#services">Services</Link><Link href="/#writing">Writing</Link><Link href="/#contact">Contact</Link></div><div className="nav-actions"><a className="nav-cv" href="/allan-senteu-cv.pdf" download>Download CV <span aria-hidden="true">↓</span></a></div></nav>;
 }
 
 export function SocialLinks() {

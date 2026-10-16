@@ -7,8 +7,34 @@ export const social = {
 
 export const projects: { title: string; kind: string; preview?: string; previewAlt?: string; description: string; stack: string[]; github: string }[] = [
   { title: "AeroCruz", kind: "Ride-hailing database", preview: "/aerocruz-erd.png", previewAlt: "AeroCruz relational database entity relationship diagram", description: "AeroCruz Ride-Hailing Management Database: a MySQL group project covering schema design, sample data, business queries and database views.", stack: ["MySQL", "Relational design", "SQL"], github: "https://github.com/NoxxyTheMain/aerocruz-ride-hailing" },
+  { title: "Narok North Bursary Platform", kind: "Web project", description: "Narok North Bursary Platform project.", stack: [], github: "https://github.com/NoxxyTheMain/Narok-North-Bursary-Plat" },
   { title: "Barclays Sunset Camp", kind: "Tourism & hospitality", description: "A considered web presence for a hospitality business—designed to present a destination with clarity, warmth and a path toward booking.", stack: ["Responsive design", "UX", "Booking flow"], github: "" },
   { title: "Elite Wear & Ink", kind: "Web development", description: "A frontend project focused on strong hierarchy, responsive behavior and a clear presentation of a brand’s offering.", stack: ["HTML", "CSS", "JavaScript"], github: "" }
+];
+
+export const education = [
+  { institution: "Cooperative University of Kenya", qualification: "Diploma in Computer Science", dates: "2025–Present" },
+  { institution: "Silvergate Computer College", qualification: "Computer Applications", dates: "Jul–Nov 2017" },
+  { institution: "Ololulunga High School", qualification: "Kenya Certificate of Secondary Education", dates: "2013–2016" },
+  { institution: "Morijo Primary School", qualification: "Kenya Certificate of Primary Education", dates: "2005–2012" }
+];
+
+export const experience = [
+  { organization: "Jomu Technologies Computer College", role: "Computer Tutor and Cyber Attendant", dates: "2019–2020", details: ["Tutored learners in basic computer skills, applications and digital tools.", "Helped clients with internet access, online applications, document preparation and printing services.", "Troubleshot common computer, software, printing and connectivity issues."] },
+  { organization: "Freelance", role: "Writer", dates: "2022–2023", details: ["Researched and wrote academic and general content across different subjects.", "Produced essays, research papers, reports, case studies and literature reviews.", "Adapted structure and tone to match client requirements and assignment guidelines."] }
+];
+
+export const services = [
+  { title: "Web & software development", summary: "Web development, software development and programming/application development." },
+  { title: "Research & writing", summary: "Academic, technical and general writing, backed by research and information analysis." },
+  { title: "Computer support & tutoring", summary: "Basic computer training, application help and practical troubleshooting." }
+];
+
+export const professionalSkills = [
+  { name: "Computing & technology", items: ["Software development", "Programming & application development", "Computer systems & applications", "Database management", "Web development", "Digital technology"] },
+  { name: "Writing & research", items: ["Academic & content writing", "Research & information analysis", "Editing & proofreading", "Technical writing"] },
+  { name: "Work skills", items: ["Critical thinking & problem solving", "Professional communication", "Time management"] },
+  { name: "Languages", items: ["English", "Kiswahili", "Spanish", "Masai"] }
 ];
 
 export const articles = [
